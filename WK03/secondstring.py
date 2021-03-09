@@ -10,6 +10,7 @@
 # Read user input
 inputString = input('Please enter a sentence: ')
 
+
 # Define empty output string. characters will be added to it in the loop below
 outputString=''
 
