@@ -36,7 +36,6 @@ plt.text(3.5, 64, r'$h(x)=x^{3}$',fontsize=10)
 # Setting up the x and y axix label simply as 'X' and 'Y'
 plt.xlabel("X")
 plt.ylabel("Y")
-plt.label.set_rotation(10)
 # Setting the layout to tight (smaller margins)
 plt.tight_layout()
 
@@ -44,4 +43,4 @@ plt.tight_layout()
 plt.grid(color='green', linestyle='--', linewidth=0.1)
 
 # Show the plot
-plt.show()
+plt.savefig('plot.png', dpi=150)

@@ -10,17 +10,5 @@
 # Read user input
 inputString = input('Please enter a sentence: ')
 
-
-# Define empty output string. characters will be added to it in the loop below
-outputString=''
-
-# loop counter 'i' for finding odd positions in the reversed string (last letter, thrirds last etc..)
-i=1
-
-# loop through reversed input string
-for c in reversed(inputString):
-    if i%2==1: outputString = outputString + c #add every other letter starting from position 1
-    i=i+1                                      #increment loop counter
-
-# Output the result string
-print(outputString)
+# the slice statement [::-2] means start at the end of the string and end at position 0, move with the step -2, negative one, which two steps backwards
+print(inputString[::-2])
