@@ -9,10 +9,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # create points for the x axis. The X axis range will be 0-4,
-# but to make the plot smooth, creating 400 data points between 0 and 4 in equal 0.01 intervals
-xPoints = np.array(range(0, 400))/100
+# To make the plot smooth, creating 400 data points between 0 and 4 in equal 0.01 intervals
+xPoints = np.linspace(0,4,400)
 # calculating the data points for the square function 
-ySquares = xPoints*xPoints
+ySquares = np.square(xPoints)
 # calculating the data points for the cube function
 yCubes = ySquares*xPoints
 
