@@ -52,7 +52,7 @@ Structure of tis repository:
 |  Exceptions: https://docs.python.org/3/library/exceptions.html
 |  Using command line parameters: https://realpython.com/python-command-line-arguments/
 |
-\---WK08 - Program that displays a plot of 3 functions: linear, quadratic and cubic for x in range of [0,4]
+|---WK08 - Program that displays a plot of 3 functions: linear, quadratic and cubic for x in range of [0,4]
         plot.png
         plottask.py
   references:
