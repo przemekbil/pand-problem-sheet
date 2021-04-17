@@ -20,7 +20,7 @@ while True:
         else:
             print("\n\tInput value has to be greater than 0\n")
     except ValueError:
-        print("\n\tThis is not a vlid integer. Try Again.\n")
+        print("\n\tThis is not a valid integer. Try Again.\n")
 
 # step counter
 step=0
@@ -29,7 +29,8 @@ step=0
 while n!=1:
     n=nPlus1(n)
     print('{:n}'.format(n))
-#   increase step by one in each iteration to count the steps    
+    # increase step by one in each iteration to count the steps. Step is not strictly needed to run this loop
+    # but it is used to count in how many steps 1 was reached
     step=step+1
 
 # Print number os steps needed to reach 1
